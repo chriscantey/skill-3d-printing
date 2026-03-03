@@ -57,13 +57,13 @@ If your assistant has permission to install packages, it can handle this for you
 Clone the repo and point your Claude Code assistant at the install instructions:
 
 ```bash
-git clone https://github.com/chriscantey/skill-3d-printing.git
+cd ~ && git clone https://github.com/chriscantey/skill-3d-printing.git
 ```
 
 Then tell your assistant:
 
 ```
-Read skill-3d-printing/INSTALL.md and follow its instructions.
+Read ~/skill-3d-printing/INSTALL.md and follow its instructions.
 ```
 
 The assistant should ask you about your printer specs and fill everything in for you.
